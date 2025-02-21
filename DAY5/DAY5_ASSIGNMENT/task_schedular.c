@@ -1,3 +1,17 @@
+// `1. Task Scheduler for Customer Support Calls`  
+// `Scenario:`  
+// A `customer support` team handles `incoming calls` on a `first-come, first-served` basis using a `queue`. The system should:  
+// - Add `new calls to the queue`  
+// - Process `calls in order`  
+// - Display `remaining calls in the queue`  
+
+// `Operations Example:`  
+// ```
+// New Call Added:  Call 101 from Alice  
+// New Call Added:  Call 102 from Bob  
+// Processing Call: 101 from Alice  
+// Remaining Calls: 102 from Bob  
+
 #include<stdio.h>
 #include<string.h>
 #define Queue_SIZE 1000

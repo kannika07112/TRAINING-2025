@@ -1,3 +1,16 @@
+// `2. Railway Ticket Reservation System`  
+// `Scenario:`  
+// A `railway booking system` maintains a `queue of passengers` for reservations. The system should:  
+// - Add `new reservations`  
+// - Process bookings `in order`  
+// - Display `waiting list if full`  
+
+// `Operations Example:`  
+// ```
+// Booking Confirmed: Passenger 1 (Alice)  
+// Booking Confirmed: Passenger 2 (Bob)  
+// Waiting List: Passenger 3 (Charlie)  
+
 #include<stdio.h>
 #include<string.h>
 #define MAX_CAPACITY 2
